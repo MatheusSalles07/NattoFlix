@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
-:root{
-    
+:root {
     --vermelha: #E50914;
     --preta: #141414;
-
 }
 
 * {
@@ -17,97 +13,95 @@
 /* elementos base */
 
 body {
-
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
 header .container {
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 header .logo {
-
     margin-left: 10px;
     color: var(--vermelha);
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
-
 }
 
 header nav a {
-
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
-    
 }
 
 header nav a:hover {
-
     color: #fff;
-
-
 }
 
 /* filme principal */
 
 .filme-principal {
-
-    font-size:16px;
+    font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/906394e4d2ede31e3f0bd303111a87ee.jpg');
-
     height: 500px;
     background-size: cover;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
 }
 
 .filme-principal .sinopse {
-
     margin-bottom: 40px;
     margin-top: 10px;
-
 }
 
 .title {
-
     margin-top: 15%;
     font-size: 40px;
 }
 
 .botao {
-
     background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
-
     padding: 15px 30px;
     font-size: 12px;
-
     cursor: pointer;
     transition: .3s ease all;
 }
 
 .botao:hover {
-
     background-color: white;
     color: black;
-
 }
 
 .botao i {
-
     margin: 5px;
+}
 
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+
+    width: 70%;
+
+}
+
+.box-filme {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
